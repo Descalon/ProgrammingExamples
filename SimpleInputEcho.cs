@@ -5,6 +5,6 @@ public class SimpleInputEcho{
 		Console.WriteLine("What's your name?");
 		Console.Write("Write your name here: ");
 		var name = Console.ReadLine();
-		Console.WriteLine("Hello, {0}!", name);
+		Console.WriteLine($"Hello, {name}");
 	}
 }
